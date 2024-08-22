@@ -8,15 +8,14 @@
 header{
     background-color: #23232f;
 }
-body{
-    background-image: linear-gradient(to top, #23232f, #3d445b, #52698c, #6292bf, #6bbef2);
-}
+
 body a {
     background-image: linear-gradient(to bottom, #23232f, #3d445b, #6292bf, #6292bf);
-    background-clip: text;
-    color: transparent;
+    
+    color: white;
     text-decoration: none;
 }
+
 
 h1, p, a {
     font-family: "Joti One", serif;
@@ -56,17 +55,13 @@ p {
     width: 150px;
     margin: 0;
 }
-.navbar{
-    color: white;
-    text-align: center;
-    
-}
 
-.nav {
-    width: 100%;
+
+.navbar {
+    width: 50%;
     background-color: #23232f;
     color: white;
-
+}
     .nav-logo {
         width: 150px;
     }
@@ -77,15 +72,8 @@ p {
         display: flex;
         align-items: center;
     }
-}
 
-@mixin gradient-background($start-color, $end-color) {
-    background-image: linear-gradient(to top, #23232f, #3d445b, #52698c, #6292bf, #6bbef2);
-}
 
-header {
-    @include gradient-background(to top, #23232f, #3d445b, #52698c, #6292bf, #6bbef2);
-}
 
 a {
     text-decoration: none;
@@ -150,11 +138,11 @@ transform: scale(1.2);
 .animacion {
     -webkit-animation: vibrate-1 0.5s linear infinite both;
     animation: vibrate-1 0.5s linear infinite both;	
-   animation-name: animacion;
-   animation-iteration-count: infinite;
-   animation-timing-function: linear;
-   animation-duration: 4s;
-   animation-delay: 1s;
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 1s;
 
 
 }
@@ -163,53 +151,53 @@ transform: scale(1.2);
     0% {
         -webkit-transform: translate(0);
                 transform: translate(0);
-      }
-      20% {
+        }
+    20% {
         -webkit-transform: translate(-2px, 2px);
-                transform: translate(-2px, 2px);
-      }
-      40% {
+        transform: translate(-2px, 2px);
+        }
+    40% {
         -webkit-transform: translate(-2px, -2px);
                 transform: translate(-2px, -2px);
-      }
-      60% {
+        }
+    60% {
         -webkit-transform: translate(2px, 2px);
                 transform: translate(2px, 2px);
-      }
-      80% {
+}
+    80% {
         -webkit-transform: translate(2px, -2px);
                 transform: translate(2px, -2px);
-      }
-      100% {
+}
+    100% {
         -webkit-transform: translate(0);
                 transform: translate(0);
-      }
-    }
+}
+}
     @keyframes animacion {
-      0% {
+    0% {
         -webkit-transform: translate(0);
                 transform: translate(0);
-      }
-      20% {
+        }
+    20% {
         -webkit-transform: translate(-2px, 2px);
-                transform: translate(-2px, 2px);
-      }
-      40% {
+                transform: translate(-2px, 2px); 
+}
+    40% {
         -webkit-transform: translate(-2px, -2px);
                 transform: translate(-2px, -2px);
-      }
-      60% {
+}
+    60% {
         -webkit-transform: translate(2px, 2px);
                 transform: translate(2px, 2px);
-      }
-      80% {
+}
+    80% {
         -webkit-transform: translate(2px, -2px);
                 transform: translate(2px, -2px);
-      }
-      100% {
+}
+    100% {
         -webkit-transform: translate(0);
                 transform: translate(0);
-      }
+}
     }
     
 
