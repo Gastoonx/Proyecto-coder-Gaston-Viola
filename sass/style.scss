@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Joti+One&display=swap');
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Teclitu{
+    text-align: center;
+}
+h1 {
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6BBEF2;
+    justify-content: center;
+}
+
+h2 {
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Joti One", serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #F2F2F2;
+    line-height: 1.5;
+}
+
+
+.boton {
+    padding: 0.625rem;
+    text-decoration: none;
+    background-color: #6BBEF2;
+    color: white;
+    border-radius: 30px;
+    border: 0;
+    width: 150px;
+    margin: 0;
+}
+.navbar{
+    color: white;
+    text-align: center;
+}
+.nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #0D0D0D;
+}
+
+.nav-logo {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    align-items: end;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F2F2F2;
+}
+.body .cuerpo-teclado{
+background-color: #0D0D0D;
+}
+
+
+
+.titulo-pri {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #0D0D0D;
+}
+
+.titulo-text {
+    height: 100%;
+    width: 30%;
+    display: flexbox;
+    text-decoration: aliceblue;
+}
+
+.tituloo {
+    color: #6BBEF2;
+}
+
+.imagen-princi {
+    width: 50%;
+    margin: 0;
+}
+
+.princi-img {
+    width: 80%;
+    display: block;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.mousese{
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+    justify-content: center;
+    text-align: center;
+}
+
+.fondocontacto{
+background-color: #6E7373;
+}
+
+
+.mapa-responsive{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.mapa-responsive iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+@media(max-width:160rem){
+    .nav-img {
+        width: 70%;
+    }
+}
+@media(max-width:90rem){
+    .nav-img {
+        width:65%;
+    }
+}
+    /*!--------Media-Query-1024-Inicio------>*/
+
+@media (max-width:1024px) {
+    h1 {
+        font-size: 37px;
+    }
+    .nav-img {
+        width: 60%;
+    }
+    
+    a {
+        font-size: 18px;
+    }
+
+    .boton {
+        padding: 8px;
+        text-decoration: none;
+        background-color: #6BBEF2;
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 130px;
+        margin: 0;
+    }
+}
+
+    /*!--------Media-Query-768-Inicio------*/
+@media (max-width:768px){
+    h1 {
+        font-size: 29px;
+    }
+    .nav-img {
+        width: 70%;
+    }
+    
+    a {
+        font-size: 16px;
+    }
+}
+
+    .boton {
+        padding: 7px;
+        text-decoration: none;
+        background-color: #6BBEF2;
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 130px;
+        margin: 0;
+    }
+
+
+
+
+
+
+
+
+/*!--------Media-Query-425-Inicio------*/
+
+@media (max-width:425px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    .boton {
+        padding: 6px;
+        text-decoration: none;
+        background-color: #6BBEF2;
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 120px;
+        margin: 0;
+    }
+    .nav-img {
+        width: 60%;
+    }
+    
+    .titulo-pri {
+        flex-direction: column;
+    }
+
+    .titulo-text {
+        width: 70%;
+    }
+
+    .imagen-princi {
+        width: 80%;
+    }
+    .footer-texto{
+        width: 60%;
+    }
+    .producto-tecl img{
+
+        width: 60%;
+    
+    }
+    }
+    
+
+
+.footer-teclado{
+    background-color: #6BBEF2;
+    
+    
+}
+.mein{
+    background-color: #0D0D0D;
+    color: #F2F2F2;
+}
+
+/*!--------Media-Query-375-Inicio------*/
+
+@media (max-width:375px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+    .nav-img {
+        width: 60%;
+    }
+    
+    .boton {
+        padding: 6px;
+        text-decoration: none;
+        background-color: #6BBEF2;
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 120px;
+        margin: 0;
+    }
+
+    .titulo-pri {
+        flex-direction: column;
+    }
+
+    .titulo-text {
+        width: 70%;
+    }
+
+    .imagen-princi {
+        width: 100%;
+    }
+   .producto-tecl img{
+
+    width: 60%;
+
+   }
+}
+
+
+/*!--------Media-Query-320-Inicio------*/
+
+@media (max-width:320px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    .titulo-pri {
+        text-align: center;
+    }
+
+    a {
+        font-size: 14px;
+    }
+    .nav-img {
+        width: 60%;
+    }
+    
+    .boton {
+        padding: px;
+        text-decoration: none;
+        background-color: #6BBEF2;
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 120px;
+        margin: 0;
+    }
+
+    .titulo-pri {
+        flex-direction: column;
+    }
+
+    .titulo-text {
+        width: 80%;
+    }
+
+    .imagen-princi {
+        width: 100%;
+    }
+
+    br {
+        display: none;
+    }
+}
+
+/*!--------Media-Query-1295 Teclados-------*/
+@media (max-width:1295px){
+    .boton-teclado {
+        padding: 9px;
+        width: 140px;
+    }
+}
+/*!--------Media-Query-1025 Teclados-------*/
+@media (max-width:1024px){
+    .boton-teclado{
+        padding: 9px;
+        width: 140px;
+
+    }
+    
+    
+}
+@media(max-width:320px){
+    .footer-teclado{
+        width: 100%; ;
+    .article.footer-logos{
+        max-width: 100%;
+    }
+    .producto-tecl img{
+        width: 100px;  
+    }
+    }
+
+    }
