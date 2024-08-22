@@ -17,10 +17,8 @@ body a {
     color: transparent;
     text-decoration: none;
 }
-.Teclitu{
-    text-align: center;
-}
-h1 {
+
+h1, p, a {
     font-family: "Joti One", serif;
     font-weight: 400;
     font-style: normal;
@@ -28,6 +26,7 @@ h1 {
     justify-content: center;
     transform: skewX(20deg);
 }
+
 
 h2 {
     font-family: "Joti One", serif;
@@ -65,29 +64,27 @@ p {
 
 .nav {
     width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
     background-color: #23232f;
-    color: #6BBEF2;
+    color: white;
+
+    .nav-logo {
+        width: 150px;
+    }
+
+    ul {
+        list-style: none;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+    }
 }
 
-.nav-logo {
-    width: 150px;
-    display: flex;
-    justify-content: center;
+@mixin gradient-background($start-color, $end-color) {
+    background-image: linear-gradient(to top, #23232f, #3d445b, #52698c, #6292bf, #6bbef2);
 }
 
-.nav-img {
-    width: 100%;
-}
-
-ul {
-    list-style: none;
-    gap: 20px;
-    display: flex;
-    align-items: end;
+header {
+    @include gradient-background(to top, #23232f, #3d445b, #52698c, #6292bf, #6bbef2);
 }
 
 a {
