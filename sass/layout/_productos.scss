@@ -1,0 +1,24 @@
+.main1{
+    background-image: linear-gradient(to bottom, #23232f, #3d445b, #52698c, #6292bf, #6bbef2);
+    color: white;
+    
+}
+
+.servicios-card{
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #23232f, #3d445b, #52698c, #6292bf, #6bbef2);
+    box-shadow: 0px 1px 10px rgba(0,0,0,0);
+    color: white;
+    transition: all 400ms ease;
+    text-align: center;
+    
+    
+}
+.card li{
+    color: white;
+}
+.figure{
+    width: 100%;
+}

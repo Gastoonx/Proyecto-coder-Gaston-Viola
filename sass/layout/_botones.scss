@@ -1,0 +1,14 @@
+.boton-mouse {
+    padding: 0.625rem;
+    text-decoration: none;
+    background-color: white;
+    color: #6BBEF2;
+    border-radius: 30px;
+    border: 0;
+    width: 150px;
+    margin: 0;
+    &:hover{
+        transform: scale(1.2);
+        color: black;
+        }
+}

@@ -1,0 +1,41 @@
+@media (max-width:325px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    .titulo-pri {
+        text-align: center;
+    }
+    a {
+        font-size: 14px;
+    }
+
+    .nav-img {
+        width: 60%;
+    }
+    
+    .boton-mouse{
+        transform: translateX(1.2);
+        padding: 4px;
+        text-decoration: none;
+        background-color: #6BBEF2;
+        color: white;
+        border-radius: 30px;
+        border: 0;
+        width: 100px;
+        margin: 0;
+    }
+        
+    .titulo-pri {
+        flex-direction: column;
+    }
+    
+  .titulo-text {
+        width: 100%;
+    }
+
+    .imagen-princi {
+        width: 100%;
+        
+    }
+}

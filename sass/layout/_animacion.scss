@@ -1,0 +1,93 @@
+.animacion {
+    -webkit-animation: vibrate-1 0.5s linear infinite both;
+    animation: vibrate-1 0.5s linear infinite both;	
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 1s;
+
+
+}
+@keyframes animacion {
+    
+    0% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+        }
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+        }
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+                transform: translate(-2px, -2px);
+        }
+    60% {
+        -webkit-transform: translate(2px, 2px);
+                transform: translate(2px, 2px);
+}
+    80% {
+        -webkit-transform: translate(2px, -2px);
+                transform: translate(2px, -2px);
+}
+    100% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+}
+}
+    @keyframes animacion {
+    0% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+        }
+    20% {
+        -webkit-transform: translate(-2px, 2px);
+                transform: translate(-2px, 2px); 
+}
+    40% {
+        -webkit-transform: translate(-2px, -2px);
+                transform: translate(-2px, -2px);
+}
+    60% {
+        -webkit-transform: translate(2px, 2px);
+                transform: translate(2px, 2px);
+}
+    80% {
+        -webkit-transform: translate(2px, -2px);
+                transform: translate(2px, -2px);
+}
+    100% {
+        -webkit-transform: translate(0);
+                transform: translate(0);
+}
+    }
+    
+
+    .titulos{    
+        text-align: center;
+        color: white;
+        animation-name: titulos;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 4s;
+        animation-delay: 1s;
+        
+    }
+@keyframes titulos {
+0%{
+    background-color: #0D0D0D;
+}
+40%{
+    background-color: #23232f;
+
+}
+80%{
+    background-color: #6BBEF2;
+}    
+100%{
+    background-color: #0D0D0D;
+}
+}
+
+

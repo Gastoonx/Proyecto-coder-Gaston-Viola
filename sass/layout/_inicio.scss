@@ -1,0 +1,42 @@
+.main2{
+    background-image: linear-gradient(to bottom,#23232f, #3d445b, #52698c, #6292bf, #6bbef2);
+    text-align: center;
+    
+}
+
+
+.titulo-pri {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+}
+
+.titulo-text {
+    display: flexbox;
+        height: 100%;
+        width: 100%;
+        
+        
+}
+.imagen-princi {
+    height: auto;
+    display: block; 
+    max-width: 1400px;
+
+}
+
+.boton-inicio{
+    padding: 0.625rem;
+    text-decoration: none;
+    background-color: white;
+    color: #6BBEF2;
+    border-radius: 30px;
+    border: 0;
+    width: 150px;
+    margin: 0;
+    &:hover{
+        transform: scale(1.2);
+        color: black;
+        }
+}
+

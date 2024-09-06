@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Joti+One&display=swap');
+$colorletra1:#6BBEF2;
+$colorletra2: #23232f;
+$colorfondo1: black;
+$colorletra3: white;
+$colorfondo2: white ;
+
+$background-color: #333;
+$text-color: #fff;
+$border-color: #444;
+$padding-vertical: 20px;
+$max-width: 1200px;
+$font-size-small: 0.9em;
+$font-size-medium: 1em;
+$font-size-large: 1.5em;
+$margin-bottom: 20px;
+$min-width: 200px;
+
+
+
+h2 {
+    font-family: "Joti One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $colorletra3;
+    
+}
+
+p {
+    font-family: "Joti One", serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #F2F2F2;
+    line-height: 1.5;
+}
+
