@@ -224,6 +224,10 @@ footer {
   display: flex;
   justify-content: flex-end; }
 
+.navbar-toggler {
+  border-color: #23232f;
+  background-color: #6BBEF2; }
+
 /*mediaquiery*/
 @media (max-width: 325px) {
   h1 {
